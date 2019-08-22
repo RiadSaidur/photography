@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio_style.css">
+    <script src="portfolio_script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <head class="mainHead">
+            <h1>Welcome</h1>
+            <div class="navbar">
+                <ul>
+                    <!-- <li><img src="assets/burger.svg" alt="menu"> -->
+                        <ul>
+                            <li><a href="index.html">Main Page</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Experience</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </head>
+        <div class="main">
+            <ul>
+                <img src="assets/camera1.svg" alt="camera">
+                <li><a href="#">All</a></li>
+                <li><a href="#">Portrait</a></li>
+                <li><a href="#">Nature</a></li>
+                <li><a href="#">Wedding</a></li>
+                <li><a href="#">Glamour</a></li>
+            </ul>
+            <div class="content">
+                <h2>Portfolio</h2>
+                <div class="slideshow">
+                    <div>
+                        <img src="assets/right-arrow.svg" alt="previous" onclick="slidePre()" class="pre" >    
+                        <img src="assets/background.jpg" alt="Preview" class="slide" id="#frame">
+                        <img src="assets/left-arrow.svg" alt="next" onclick="slideNext()" class="next">
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sed? lor</p>
+                <div class="gallary">
+                        <img src="assets/thumb1.jpg" alt="" class="a1 p1" onclick="preview(1)">
+                        <img src="assets/thumb2.jpg" alt="" class="a2 p2" onclick="preview(2)">
+                        <img src="assets/thumb3.jpg" alt="" class="a3 n1" onclick="preview(3)">
+                        <img src="assets/thumb4.jpg" alt="" class="a4 n2" onclick="preview(4)">
+                        <img src="assets/thumb5.jpg" alt="" class="a5 w1" onclick="preview(5)">
+                        <img src="assets/thumb6.jpg" alt="" class="a6 w2" onclick="preview(6)">
+                        <!-- <img src="" alt="" class="a7 g1">
+                        <img src="" alt="" class="a8 g2"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
