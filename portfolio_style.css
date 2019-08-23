@@ -136,7 +136,8 @@ li{
 .pre .next{
     max-width: 20%;
     min-width: 10%;
-    
+    /* width: 50px;
+    min-width: 30px; */
 }
 
 .pre{
@@ -211,5 +212,14 @@ li{
 
     .main ul img{
         display: none;
+    }
+
+    .slideshow{
+        position: relative;
+    }
+
+    .pre, .next{
+        width: 50px;
+        min-width: 30px;
     }
 }
