@@ -173,6 +173,7 @@ li{
     .navbar ul li ul{
         display: none;
         position: relative;
+        z-index: 1;
     }
 
     .navbar ul li ul li{
@@ -194,7 +195,7 @@ li{
         background-color: rgba(0, 0, 0, 0.908);
         right: 5%;
         /* left: 60%; */
-        margin-left: 45%;
+        margin-left: 65%;
         padding-top: 1rem;
         padding-bottom: 1.5rem;
         border-radius: 7px;
