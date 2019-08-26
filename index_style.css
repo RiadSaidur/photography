@@ -9,16 +9,7 @@ html, body{
 
 body{
     background: url("assets/mainback.jpg") no-repeat center center fixed;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    //-o-background-size: cover; */
     background-size: cover;    
-
-    /* background-image: url("assets/background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%; */
 }
 
 li{
@@ -33,23 +24,20 @@ a{
 
 .container{
     height: 100%;
-    margin: 0 2em;
+    padding: 0 2em;
     display: flex;
     flex-direction: column;
     color: ivory;
-    //background: rgba(166, 241, 210, 0.157); 
+    background-color: rgba(211, 211, 211, 0.075);
 }
 
 .top{
     flex: 2;
-    //background-color: aqua;
 }
 
 .box1{
     display: flex;
     margin: auto;
-    //background-color: rgba(166, 241, 210, 0.178); 
-    //background-color:lightgreen;
 }
 
 .box1 h1{
@@ -65,8 +53,6 @@ a{
 .navbar{
     flex: 3;
     padding-top: .65em;
-    //background-color: rgba(166, 241, 210, 0.178); 
-    //background-color: lightseagreen;
 }
 
 .navbar ul{
@@ -79,22 +65,15 @@ a{
     padding-left: 1em; 
 }
 
-.navbar a:hover{
-    background-color:
-}
-
 .box2{
     padding: 12em 0em;
     text-align: center;
-    //background-color: rgba(166, 241, 210, 0.178); 
-    //background-color: lightslategray;
 }
 
 .bottom{
     padding: 3em 0em;
     flex: .5;
     text-align: center;
-    //background-color: rgba(166, 241, 210, 0.178); 
 }
 
 .bottom a{
@@ -103,7 +82,6 @@ a{
     border: solid 1px;
     padding: .2em .5em;
     padding-top: .1em;
-    //padding-bottom: .2em;
 }
 
 @media only screen and (max-width: 1000px){
@@ -131,35 +109,11 @@ a{
         line-height: 2rem;
         background-color: rgba(0, 0, 0, 0.908);
         right: 5%;
-        /* left: 60%; */
         margin-left: 60%;
         padding-top: 1rem;
         padding-bottom: 1.5rem;
         border-radius: 7px;
-        /* margin-right: 5%; */
     }
-
-    /* .navbar{
-        position: relative;
-        display: inline-block;
-    }
-    
-    .navbar ul li ul{
-        position: absolute;
-        float: right;
-        display: none;
-        background-color: black;
-        margin-left: 40%;
-        padding: 1em .5em;
-        padding-right: 1.5em;
-        z-index: 1;
-    }
-
-    .navbar ul li ul li{
-        font-size: .95em;
-        text-align: left;
-        display: block;
-    } */
 
     .box1 h1{
         padding-left: .5em;
@@ -168,9 +122,7 @@ a{
     .box1 img{
         padding-left: 90%;
         display: block;
-        //width: 5vh;
         width: 15%;
-        //padding-top: .2.5em;
     }
 
     .box1 ul li:hover ul{

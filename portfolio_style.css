@@ -18,20 +18,18 @@ li{
 }
 
 .container{
-    padding: 0em 1.5em;
+    padding: 0em 4rem;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 3rem 12fr;
+    grid-template-rows: 3rem 1fr;
     grid-template-areas:
     "box1 box2"
     "box3 box3";
-    /* background-color: chartreuse; */
 }
 
 .mainHead{
     grid-area: box1;
-    /* background-color: cyan;     */
 }
 
 .navbar{
@@ -61,12 +59,10 @@ li{
     grid-template-rows: 1fr;
     grid-template-areas:
     "box21 box22";
-    /* background-color: coral; */
 }
 
 .main ul li{
     grid-area: box21;
-    /* background-color: burlywood; */
     padding-right: 1rem;
     font-size: 1.2rem;
     line-height: 2rem;
@@ -77,43 +73,23 @@ li{
     max-width: 55%;
     display: flex;
     margin: 1em auto;
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem; */
-    /* min-width: 7em; */
 }
 
 .content{
     grid-area: box22;
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2.5rem 7fr 2.5rem 3fr;
-    grid-template-areas:
-    "box31"
-    "box32"
-    "box33"
-    "box34"; */
-    /* background-color: peachpuff; */
 }
 
 .content h2{
-    /* grid-area: box31; */
     padding: 1rem 0rem;
-    /* background-color: darkcyan; */
 }
 
 .content > p{
-    /* grid-area: box33; */
     padding: 1rem 0rem;
-    /* background-color: peachpuff; */
 }
 
 .slideshow{
-    /* grid-area: box32; */
-    background-color: rgba(211, 211, 211, 0.329);
-    /* justify-self: center;
-    align-self: center; */
+    background-color: rgba(0, 0, 0, 0.253);
+    /* background-color: rgba(211, 211, 211, 0.329); */
 }
 
 .slideshow div{
@@ -130,14 +106,11 @@ li{
     grid-area: image;
     width: 100vw;
     max-width: 80%;
-    /* border: solid 3px red; */
 }
 
 .pre .next{
     max-width: 20%;
     min-width: 10%;
-    /* width: 50px;
-    min-width: 30px; */
 }
 
 .pre{
@@ -152,11 +125,11 @@ li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgba(211, 211, 211, 0.329);
+    background-color: rgba(0, 0, 0, 0.253);
+    /* background-color: rgba(211, 211, 211, 0.329); */
 }
 
 .gallary > img{
-    /* box-sizing: border-box; */
     margin: 10px 0px;
     width: calc(1/3*100% - (1 - 1/3)*10px);
 }
@@ -194,12 +167,10 @@ li{
         line-height: 2rem;
         background-color: rgba(0, 0, 0, 0.908);
         right: 5%;
-        /* left: 60%; */
         margin-left: 65%;
         padding-top: 1rem;
         padding-bottom: 1.5rem;
         border-radius: 7px;
-        /* margin-right: 5%; */
     }
     .main{
         display: block;
@@ -223,5 +194,9 @@ li{
         width: 20px;
         max-width: 50px;
         min-width: 30px;
+    }
+    .gallary > img{
+        margin: 10px 0px;
+        width: calc(1/2*100% - (1 - 1/2)*10px);
     }
 }

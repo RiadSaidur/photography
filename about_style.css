@@ -14,13 +14,14 @@ a{
 }
 
 li{
-    list-style: none;;
+    list-style: none;
 }
 
 .container{
     display: grid;
     height: 100vh;
-    grid-template-rows: 1fr 2fr 6fr;
+    padding: 0 2rem;
+    grid-template-rows: 3rem 2fr 6fr;
     grid-template-columns: 1fr 6fr;
     grid-template-areas:
     "box1 box2"
@@ -30,6 +31,7 @@ li{
     align-items: center;
     text-align: center;
     grid-row-gap: 1rem;
+    background-color: rgba(211, 211, 211, 0.075);
 }
 
 .mainHead{
@@ -61,7 +63,8 @@ li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.3rem;
     padding: 3% 10%;
-    background-color: rgba(211, 211, 211, 0.329);
+    background-color: rgba(0, 0, 0, 0.883);
+    /* background-color: rgba(211, 211, 211, 0.329); */
 }
 
 .bio{
@@ -70,21 +73,18 @@ li{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     padding: 2% 10% 5% 10%;
-    background-color: rgba(255, 255, 255, 0.63);
+    background-color: rgba(0, 0, 0, 0.883);
+    /* background-color: rgba(255, 255, 255, 0.63); */
     background-size: 100vw;
 }
 
 .bio > h2{
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     line-height: 5rem;
 }
 
-.bio > p{
-    color: black;
-}
-
 .bio em{
-    color: rgba(0, 0, 0, 0.767);
+    color: rgba(255, 255, 255, 0.877);
 }
 
 @media (max-width: 1000px){
@@ -112,11 +112,9 @@ li{
         line-height: 2rem;
         background-color: rgba(0, 0, 0, 0.908);
         right: 5%;
-        /* left: 60%; */
         margin-left: 65%;
         padding-top: 1rem;
         padding-bottom: 1.5rem;
         border-radius: 7px;
-        /* margin-right: 5%; */
     }
 }
