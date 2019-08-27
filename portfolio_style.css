@@ -18,7 +18,7 @@ li{
 }
 
 .container{
-    padding: 0em 4rem;
+    padding: 0em 2rem;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -150,6 +150,7 @@ li{
     }
 
     .navbar ul li ul li{
+        display: block;
         border-bottom: solid 1px rgba(255, 0, 0, 0.753);
         text-align: center;
     }
@@ -167,7 +168,7 @@ li{
         line-height: 2rem;
         background-color: rgba(0, 0, 0, 0.908);
         right: 5%;
-        margin-left: 65%;
+        margin-left: 50%;
         padding-top: 1rem;
         padding-bottom: 1.5rem;
         border-radius: 7px;
