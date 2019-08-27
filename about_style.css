@@ -105,6 +105,8 @@ li{
         position: relative;
         display: block;
         width: 1.5rem;
+        padding-left: 6rem;
+        padding-top: .58rem;
     }
 
     /* .navbar ul li:hover ul{
