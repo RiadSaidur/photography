@@ -19,16 +19,17 @@ li{
 a{
     text-decoration: none;
     color: aliceblue;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 .container{
     height: 100%;
-    padding: 0 2em;
+    padding: 0 2rem;
     display: flex;
     flex-direction: column;
     color: ivory;
     background-color: rgba(211, 211, 211, 0.075);
+    background-size: 100%;
 }
 
 .top{
@@ -41,7 +42,7 @@ a{
 }
 
 .box1 h1{
-    padding-left: 1em; 
+    padding-left: 1rem; 
     flex: 1;
 }
 
@@ -52,36 +53,36 @@ a{
 
 .navbar{
     flex: 3;
-    padding-top: .65em;
+    padding-top: .65rem;
 }
 
 .navbar ul{
     text-align: right;
-    padding-right: 2em;
+    padding-right: 2rem;
 }
 
 .navbar ul li{
     display: inline-block;
-    padding-left: 1em; 
+    padding-left: 1rem; 
 }
 
 .box2{
-    padding: 12em 0em;
+    padding: 12rem 0rem;
     text-align: center;
 }
 
 .bottom{
-    padding: 3em 0em;
+    padding: 3rem 0rem;
     flex: .5;
     text-align: center;
 }
 
 .bottom a{
     color: lightcyan;
-    line-height: 2.5em;
+    line-height: 2.5rem;
     border: solid 1px;
-    padding: .2em .5em;
-    padding-top: .1em;
+    padding: .2rem .5rem;
+    padding-top: .1rem;
 }
 
 @media only screen and (max-width: 1000px){
@@ -92,8 +93,9 @@ a{
     }
 
     .navbar ul li ul li{
+        display: block;
         border-bottom: solid 1px rgba(255, 0, 0, 0.753);
-        text-align: center;
+        /* text-align: center; */
     }
 
     .navbar ul li img{
@@ -102,7 +104,7 @@ a{
         width: 1.5rem;
     }
 
-    .navbar ul li:hover ul{
+    /* .navbar ul li:hover ul{
         display: inline-block;
         position: absolute;
         font-size: 1.3rem;
@@ -113,10 +115,24 @@ a{
         padding-top: 1rem;
         padding-bottom: 1.5rem;
         border-radius: 7px;
+    } */
+
+    .navbar ul li:hover ul{
+        display: inline-block;
+        position: absolute;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        background-color: rgba(0, 0, 0, 0.908);
+        right: 0%;
+        left: 0%;
+        /* margin-left: 50%; */
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        border-radius: 7px;
     }
 
     .box1 h1{
-        padding-left: .5em;
+        padding-left: .5rem;
     }
 
     .box1 img{
@@ -131,6 +147,6 @@ a{
     }
 
     .box2{
-        padding: 10em 0em;
+        padding: 10rem 0rem;
     }
 }

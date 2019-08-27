@@ -33,6 +33,7 @@ a{
     /* text-align: center; */
     /* grid-row-gap: 1rem; */
     background-color: rgba(211, 211, 211, 0.075);
+    background-size: 100%;
 }
 
 .mainHead{
@@ -129,17 +130,20 @@ a{
     }
 
     .navbar ul li ul li{
+        display: block;
         border-bottom: solid 1px rgba(255, 0, 0, 0.753);
-        text-align: center;
+        /* text-align: center; */
     }
 
     .navbar ul li img{
         position: relative;
         display: block;
         width: 1.5rem;
+        padding-left: 6rem;
+        padding-top: .58rem;
     }
 
-    .navbar ul li:hover ul{
+    /* .navbar ul li:hover ul{
         display: inline-block;
         position: absolute;
         font-size: 1.5rem;
@@ -150,5 +154,23 @@ a{
         padding-top: 1rem;
         padding-bottom: 1.5rem;
         border-radius: 7px;
+    } */
+
+    .navbar ul li:hover ul{
+        display: inline-block;
+        position: absolute;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        background-color: rgba(0, 0, 0, 0.908);
+        right: 0%;
+        left: 0%;
+        /* margin-left: 50%; */
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        border-radius: 7px;
+    }
+
+    .info{
+        padding: 0rem 1rem;
     }
 }
