@@ -143,6 +143,10 @@ li{
         font-size: 1.2rem;
     }
 
+    .container{
+        padding: 0 1rem;
+    }
+
     .navbar ul li ul{
         display: none;
         position: relative;
